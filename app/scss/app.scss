@@ -1,0 +1,27 @@
+
+// variables, mixins, etc
+@import "partials/colours";
+@import "partials/reset";
+@import "partials/typography";
+@import "partials/forms";
+
+// default global styles
+@import "partials/global";
+
+// Mobile
+@media screen and (max-width: 767px) {
+  @import "partials/mobile";  
+}
+
+// Tablet
+@media screen and (max-width: 959px) {
+  @import "partials/tablet";  
+}
+
+// Desktop
+@media screen and (min-width: 960px) {
+  @import "partials/wide"; 
+}
+
+// Shameful styles
+@import 'partials/shame';
