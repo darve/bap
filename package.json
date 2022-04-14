@@ -14,7 +14,7 @@
     "storybook": "start-storybook -s ./server/public -p 3001"
   },
   "dependencies": {
-    "async": "^2.6.0",
+    "async": "^3.2.2",
     "axios": "^0.18.0",
     "bcrypt": "^3.0.4",
     "connect-redis": "^3.3.3",
